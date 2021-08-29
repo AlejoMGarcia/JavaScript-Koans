@@ -4,9 +4,7 @@
   "description": "Update ======",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node ./",
-		"koans": ""
+		"koans": "node ./main.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +14,7 @@
     "javascript",
     "koans"
   ],
-  "author": "",
+  "author": "Alejo Garcia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pipetus/JavaScript-Koans/issues"

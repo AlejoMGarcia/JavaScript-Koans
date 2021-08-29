@@ -1,6 +1,6 @@
 // module("About Strings (topics/about_strings.js)");
-const { equal } = require('assert')
-const { __, test } = require('../support/koans')
+const equal = require('assert').equal
+const test = require('../support/koans').test
 
 test("delimiters", () => {
     const singleQuotedString = 'apple';
@@ -31,5 +31,5 @@ test("string.length", () => {
 
 test("slice", () => {
     const fruit = "apple pie";
-    equal("appl", fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
+    equal("apple", fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
 });

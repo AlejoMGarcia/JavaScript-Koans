@@ -1,6 +1,6 @@
 // module("About Assignment (topics/about_assignment.js)");
 const equal = require('assert').equal
-const test = require('../support/koans')
+const test = require('../support/koans').test
 
 test("local variables", () => {
     const temp = 1;
